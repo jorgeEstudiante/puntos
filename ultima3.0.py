@@ -93,6 +93,8 @@ diccionario = {'nombre': 'jorge',
 diccionario['personalidad'] = 'callado'
 #* Mostrar un valor del diccionario
 print(diccionario['personalidad'])
+diccionario['nombre'] = diccionario['nombre'].upper
+print(diccionario)
 
 ### ✅ **Estilo y presentación**
 
